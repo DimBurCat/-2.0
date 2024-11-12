@@ -1,0 +1,82 @@
+.body_of_calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    left: 200px; 
+    text-align: center;
+    width: 1300px;
+    height: 1250px;
+    background: rgb(41,89,40);
+    background: linear-gradient(120deg, rgba(41,89,40,1) 35%, rgba(41,149,59,1) 100%);
+    border: solid 10px #556B2F;
+    border-radius: 10px;
+}
+
+.operator_button {
+   width: 150px;
+   height: 150px;
+   font-size: 50px;
+   color: #FFFFFF;
+   border-radius: 5px;
+   margin: 5px;
+   background-color: #2F4F4F;
+   font-family: '911 Porscha', sans-serif;
+}
+
+.operator_line {
+    width: 1100px;
+    height: 150px;
+    border: solid 4px #000000;
+    border-radius: 5px;
+    font-size: 90px;
+    background: #000000;
+    font-family: "Doto", sans-serif;
+    color: #00FF00;
+    margin: 0 0 5px 0;
+}
+
+
+.count {
+    background: #4682B4;
+    min-width: 400px;
+}
+
+.operator_result {
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers {
+    display: grid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template: repeat(4, 1ft) / repeat(3, 1ft);
+    width: 500px;
+}
+
+.operator_buttons_box {
+    display: flex;
+}
+
+.operator_btns_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.operator_button_btns {
+    background: #5F9EA0;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: '911 Porscha', sans-serif;
+    color: #FFFFFF;
+}

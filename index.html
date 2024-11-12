@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/911-porscha" rel="stylesheet">
+        <title>Калькулятор</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="body_of_calculator">
+        <input class="operator_line" id="num1">
+        <input class="operator_line" id="num2" >
+    <div class="operator_buttons_box">
+        <div class="operator_button numbers">
+            <button class="operator_button"  onclick="num='1'">1</button>
+            <button class="operator_button"  onclick="num='2'">2</button>
+            <button class="operator_button"  onclick="num='3'">3</button>
+            <button class="operator_button"  onclick="num='4'">4</button>
+            <button class="operator_button"  onclick="num='5'">5</button>
+            <button class="operator_button"  onclick="num='6'">6</button>
+            <button class="operator_button"  onclick="num='7'">7</button>
+            <button class="operator_button"  onclick="num='8'">8</button>
+            <button class="operator_button"  onclick="num='9'">9</button>
+            <button class="operator_button"  onclick="num='0'">0</button>
+        </div>
+
+        <div class="operator_btns_box" id="operator_btns">
+            <button class="operator_button_btns plus" id="plus" onclick="op='+'">+</button>
+            <button class="operator_button_btns minus" id="minus" onclick="op='-'">-</button>
+            <button class="operator_button_btns times" id="times" onclick="op='*'">*</button>
+            <button class="operator_button_btns divide" id="divide" onclick="op='/'">:</button>
+        </div>
+
+    </div>
+        <button class="operator_button count" onclick="func()">Count</button>
+
+        <output class="operator_line operator_result" id="result">
+        </div>
+    </body>
+</html>
